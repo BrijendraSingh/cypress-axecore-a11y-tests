@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --spec cypress/e2e/3-a11y/a11y.cy.js --headed"
+    "test": "cypress run --spec cypress/e2e/3-a11y/a11y.cy.js",
+    "test-headed": "cypress run --spec cypress/e2e/3-a11y/a11y.cy.js --headed"
   },
   "keywords": [],
   "author": "",
