@@ -1,0 +1,17 @@
+{
+  "name": "cypress-axecore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec cypress/e2e/3-a11y/a11y.cy.js --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axe-core": "^4.6.1",
+    "cypress": "^12.1.0",
+    "cypress-axe-core": "^2.0.0"
+  }
+}
